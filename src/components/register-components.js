@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 import { registerComponents } from '@stackbit/components';
 import { componentsMap } from '@stackbit/components/dist/components-map';
-import Footer from '@stackbit/components/d'
+import Footer from './Footer';
 
 registerComponents({
     // Register all Stackbit components
