@@ -3,7 +3,7 @@ import Markdown from 'markdown-to-jsx';
 import classNames from 'classnames';
 
 import { getComponent } from '@stackbit/components/dist/components-registry';
-import ImageBlock from '../ImageBlock';
+import ImageBlock from ''@stackbit/components/dist/components/ImageBlock';
 import Link from '../../utils/link';
 
 export default function Footer(props) {
