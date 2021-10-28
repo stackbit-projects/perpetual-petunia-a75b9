@@ -80,7 +80,7 @@ export default function Footer(props) {
                     </div>
                 )}
                 <div className="sb-divider" />
-                
+
                 <div className="flex flex-col-reverse justify-between pt-6 lg:flex-row">
                     {props.copyrightText && <p data-sb-field-path=".copyrightText">{props.copyrightText}</p>}
                     {legalLinks.length > 0 && (
