@@ -87,6 +87,7 @@ export default function Footer(props) {
                             {legalLinks.map((link, index) => (
                                 <li key={index} data-sb-field-path={`.${index}`}>
                                     <Action {...link} />
+                                    {props.copyrightText && <p data-sb-field-path=".copyrightText">{props.copyrightText}</p>}
                                 </li>
                             ))}
                         </ul>
