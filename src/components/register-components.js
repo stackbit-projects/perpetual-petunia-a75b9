@@ -6,7 +6,7 @@ import Footer from './Footer';
 registerComponents({
     // Register all Stackbit components
     ...componentsMap,
-    Footer: () => null
+    Footer
 
     // Override any static or dynamic component,
     // or register your own dynamic component.
